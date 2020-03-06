@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "century gothic";
+}
+
+body{
+    background: #FAFAFA;
+
+}
+
+h1{
+    color: #5146AF;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    top:10px;
+    cursor: default;
+}
+
+.content{
+    margin-top: 30px;
+}
+
+p{
+    margin-bottom: 5px;
+    cursor: default;
+}
+
+p,input,button{
+    margin-left: 40px;
+    margin-top: 1px;
+}
+
+.label{
+    font-size: 14.5px;
+    font-weight: normal;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.main{
+    position: absolute;
+    
+    height: 280px;
+    width: 340px;
+
+    top: 23%;
+    left: 60%;
+}
+
+img{
+    width : 500px;
+    height: 500px;
+    position: relative;
+    left: 90px;
+    top:70px;
+}
+
+button{
+    border: none;
+    width: 250px;
+    height:35px;
+    margin-bottom: 7px;
+
+    color: #5146AF;
+    font-weight: bold;
+    transition: 0.7s ease-in;
+}
+
+
+
+input{
+    outline: none;
+    padding:10px 58px;
+    background: none;
+    border: 1px solid #5146AF;
+    transition: 0.2s ease;
+    text-align: center;
+}
+
+.login{
+    background: #5146AF;
+    color:white;
+}
+
+.signup{
+    background: #1690CA;
+    border: none;
+    color:white;
+    margin-top: 4px;
+}
+
+input:focus,input:hover{
+    border: 1.8px solid #5146AF;
+    transition: 0.2s ease;
+}
+
+.login:hover{
+    border: 1px solid #5146AF;
+    background: white;
+    transition: 0.7s ease;
+    color: #5146AF;
+}
+
+input::placeholder{
+    color: rgb(93, 84, 173);
+    text-align: center;
+}
+
+.signup:hover{
+    background: white;
+    border: 1px solid #1690CA;
+    transition: 0.7s ease;
+    color: #1690CA;
+}
+
+.bar{
+    background:black;
+    height:20px;
+    width: 160px;
+    position: absolute;
+    visibility: collapse;
+    top:40%;
+    left:70px;
+
+}
+
+#bar{
+    position: relative;
+    width: 10px;
+    height:5px;
+    color: black;
+}
